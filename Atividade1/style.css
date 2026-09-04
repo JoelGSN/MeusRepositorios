@@ -1,0 +1,85 @@
+h1{
+    text-align: center;
+    color: #050505;
+    text-shadow: 2px 2px 5px rgb(223, 238, 10);
+}
+
+h2{
+
+    
+    text-align: justify;
+    color: #050505;
+    text-shadow: 2px 2px 5px rgb(223, 238, 10);
+    
+    
+
+
+}
+
+/* .fogo{
+    
+        margin-top: 5%;
+        text-align: center;
+        color: #ee0909;
+        text-shadow: 2px 2px 5px rgb(233, 157, 122);
+    } */
+
+
+    .fogo {
+
+        
+        margin-top: 5%;
+  background: linear-gradient(90deg, #ece052, #ff7b00, #ff2d00, #f51b1b);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fogo 1.8s ease-in-out infinite alternate;
+          text-align: center;
+        color: #ee0909;
+}
+
+@keyframes fogo {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+
+*{
+    background-color: rgb(201, 229, 231);
+    /*altera cor da fonte*/
+    cursor: cell;
+    /*altera o cursor do mouse*/
+}
+
+
+.btn{
+
+    
+    background-color: rgb(11, 12, 11);
+    color: rgb(7, 219, 67);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: help;
+    text-align: center;
+    margin-inline: 39%;
+    width: fit-content;
+    margin-top:auto
+    
+}
+
+img{
+
+    
+    width: 50%;
+    border-radius: 15% 0 15% 0;
+    border: 2px solid #050505;
+    margin-inline: 25%;
+    margin-bottom: 8%;
+    margin-top: 1%;
+}

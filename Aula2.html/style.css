@@ -1,0 +1,20 @@
+header{
+        .titulos{
+            color: rgb(240, 240, 245); /*altera cor da fonte*/
+            background-color: rgb(96, 180, 101); /*altera cor do fundo*/
+            text-align: center; /*altera alinhamento do texto*/
+            
+            
+        }
+
+}
+#unico{
+    color: blue; /*altera cor da fonte*/
+    font-size: 70px; /*altera tamanho da fonte*/
+    background-color: rgb(96, 180, 101); /*altera cor do fundo*/
+    text-align: center; /*altera alinhamento do texto*/
+}
+body{
+
+    background-color: rgb(197, 164, 164); /*altera cor do fundo*/
+}

@@ -1,0 +1,48 @@
+h1 {
+    color: #db1032;
+    font-size: 80px;
+    text-align: center;
+}
+
+main {
+
+    /* display: flex;
+    align-items: center; */
+    color: rgb(240, 248, 248);
+    flex-direction: column;
+    background-color: rgb(8, 8, 8);
+    /*altera cor do fundo*/
+    font-size: 30px;
+    text-align: justify;
+    
+    footer{
+        
+      
+        text-align: center;
+    }
+
+
+}
+
+* {
+    background-color: rgb(8, 8, 8);
+    /*altera cor da fonte*/
+    cursor: cell;
+    /*altera o cursor do mouse*/
+}
+
+    img {
+        
+        margin-top: 1%;
+        margin-bottom: 5%;
+        margin-inline: 25%;
+        border-radius: 15% 0 15% 0;
+        box-shadow: 2px 2px 10px rgb(3, 250, 3);
+        
+        
+        width: 50%;
+       
+        /* height: 50%; */
+        
+
+    } 
