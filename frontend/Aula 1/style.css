@@ -1,0 +1,73 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(107, 56, 20);
+    color: rgb(53, 111, 238);
+}
+
+H1 {
+    color: rgb(130, 218, 229);
+}
+
+#cad {
+    color: rgb(53, 111, 238);
+}
+
+.negrito {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input {
+    font-size: 9px;
+    padding: 2px;
+    width: 50vw;
+}
+
+#sec_cad {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .div_botoes {
+        display: flex;
+        gap: 5vw;
+
+        button {
+            width: 10vw;
+            height: 15vh;
+            display: inherit;
+            align-self: center;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+#sec_emp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+        color: chartreuse;
+    }
+
+    .div_botoes2 {
+        display: flex;
+        gap: 5vw;
+
+        button {
+            width: 10vw;
+            height: 15vh;
+            display: inherit;
+            align-self: center;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

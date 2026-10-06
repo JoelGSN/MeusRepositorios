@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Livraria</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    
+</head>
+
+<body>
+    <header>
+        <h1>Livraria</h1>
+        <p>Site para lidar com livros e empréstimos de livros.</p>
+
+    </header>
+    <main>
+        <section id="sec_cad">
+
+            <h2 ID="cad">Cadastro de Livro</h2>
+            <br>
+            <br>
+            <br>
+            <p class="negrito">Titulo:</p>
+            <input id="input_livro">
+            <p class="negrito">Autor:</p>
+            <input id="input_autor">
+            <br>
+            <div class="div_botoes">
+                <button onclick="cadastrar_livro()" >Cadastrar</button>
+                <button>Limpar</button>
+            </div>
+        </section>
+
+
+
+        <section id="sec_emp">
+            <br>
+            <br>
+            <br>
+            <h2>Empréstimo de Livro</h2>
+            <br>
+            <p class="negrito">Livro:</p>
+            <input id="input_emp" >
+            <p class="negrito">Nome do Aluno:</p>
+            <input id="input_nome">
+            <br>
+            <div class="div_botoes2">
+                <button onclick="cadastrar_emprestimo()">Emprestar</button>
+                <button>Limpar</button>
+            </div>
+        </section>
+        <h2>Relatório de Livros Emprestados</h2>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
